@@ -5,7 +5,7 @@
     background-color: variables.$bg-color
     flex: 2 1 0    
     border-radius: variables.$container-border-radius
-    padding: 3rem
+    padding: 3rem 
 
     section
         display: flex
@@ -25,11 +25,18 @@
     p
         color: variables.$text-color-secundary  
         margin-bottom: 1rem
-        line-height: 1.4rem   
+        line-height: 1.4rem 
+        text-align: left  
 
     .btn 
         @include mixins.btn
         align-self: start
+
+@media(max-width: 640px)  
+    #main-content
+        margin-left: -25px         
+
+ 
               
             
         

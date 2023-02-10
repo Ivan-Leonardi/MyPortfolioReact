@@ -6,10 +6,7 @@
     padding: 3rem
     gap: 3rem
 
-    h1  
-        display: flex
-        align-items: center
-        justify-content: space-between
+    h1
         width: 100%
         font-family: 'Lilita One', cursive 
         font-size: 5rem
@@ -17,3 +14,7 @@
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+
+    @media(max-width: 640px)        
+         h1
+          font-size: 3rem

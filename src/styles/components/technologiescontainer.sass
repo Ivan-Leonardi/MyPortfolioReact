@@ -20,7 +20,7 @@
             h3
                 color: variables.$text-color
                 margin-bottom: 1rem
-                font-size: 1rem                             
+                font-size: 1rem
 
             svg
                 font-size: 6rem
@@ -43,8 +43,18 @@
 
         #mysql
             svg
-                color: #00618a 
+                color: #00618a
 
         #react
             svg
-                color: #61dafb                                             
+                color: #61dafb
+
+    @media(max-width: 640px)
+        .technologies-grid
+            flex-direction: column
+            flex-wrap: nowrap
+
+            .technology-card                
+                width: 100%
+                
+            
